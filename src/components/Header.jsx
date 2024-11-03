@@ -11,7 +11,7 @@ const Header = () => {
         <div className="h-[40px] w-[40px] rounded-sm text-white flex justify-center items-center bg-orange-500">
           {selectItem?.icon()}
         </div>
-         <span>{selectItem.title}</span>
+         <span>{selectItem?.title}</span>
       </div>
     </div>
   );
